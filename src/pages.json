@@ -3,14 +3,245 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "创鱼企服",
+				"usingComponents": {
+					"van-search": "/wxcomponents/vant/dist/search/index",
+					"van-row": "/wxcomponents/vant/dist/row/index",
+					"van-col": "/wxcomponents/vant/dist/col/index"
+				}
+			}
+		},
+		{
+			"path": "pages/knowledge/index",
+			"style": {
+				"navigationBarTitleText": "干货",
+				"usingComponents": {
+					"van-tab": "/wxcomponents/vant/dist/tab/index",
+					"van-tabs": "/wxcomponents/vant/dist/tabs/index",
+					"van-tag": "/wxcomponents/vant/dist/tag/index"
+				}
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "创鱼企服",
+				"usingComponents": {
+					"van-cell": "/wxcomponents/vant/dist/cell/index",
+					 "van-cell-group": "/wxcomponents/vant/dist/cell-group/index"
+				}
+			}
+		},
+		{
+			"path": "pages/myShares/index",
+			"style": {
+				"navigationBarTitleText": "我的分享",
+				"usingComponents": {
+					"van-tab": "/wxcomponents/vant/dist/tab/index",
+					"van-tabs": "/wxcomponents/vant/dist/tabs/index",
+					"van-tag": "/wxcomponents/vant/dist/tag/index"
+				}
+			}
+		},
+		{
+			"path": "pages/myCollections/index",
+			"style": {
+				"navigationBarTitleText": "我的收藏",
+				"usingComponents": {
+					"van-tab": "/wxcomponents/vant/dist/tab/index",
+					"van-tabs": "/wxcomponents/vant/dist/tabs/index",
+					"van-tag": "/wxcomponents/vant/dist/tag/index"
+				}
+			}
+		},
+		{
+			"path": "pages/myServices/index",
+			"style": {
+				"navigationBarTitleText": "我的服务",
+				"usingComponents": {
+					
+				}
+			}
+		},
+		{
+			"path": "pages/about/index",
+			"style": {
+				"navigationBarTitleText": "关于我们",
+				"usingComponents": {
+					
+				}
+			}
+		},
+		{
+			"path": "pages/contact/index",
+			"style": {
+				"navigationBarTitleText": "联系我们",
+				"usingComponents": {
+					
+				}
+			}
+		},
+		{
+			"path": "pages/coupons/index",
+			"style": {
+				"navigationBarTitleText": "优惠券",
+				"usingComponents": {
+					
+				}
+			}
+		},
+		{
+			"path": "pages/shop/index",
+			"style": {
+				"navigationBarTitleText": "创鱼服务商城",
+				"usingComponents": {
+					"van-field": "/wxcomponents/vant/dist/field/index",
+					"van-popup": "/wxcomponents/vant/dist/popup/index",
+					"van-overlay": "/wxcomponents/vant/dist/overlay/index"
+				}
+			}
+		},
+		{
+			"path": "pages/serviceDetail/index",
+			"style": {
+				"navigationBarTitleText": "服务详情",
+				"usingComponents": {}
+			}
+		},
+		{
+			"path": "pages/createCard/index",
+			"style": {
+				"navigationBarTitleText": "创建名片",
+				"usingComponents": {
+					"van-field": "/wxcomponents/vant/dist/field/index",
+					"van-cell-group": "/wxcomponents/vant/dist/cell-group/index"
+				}
+			}
+		},
+		{
+			"path": "pages/saveCard/index",
+			"style": {
+				"navigationBarTitleText": "生成名片",
+				"usingComponents": {
+					
+				}
+			}
+		},
+		{
+			"path": "pages/shareCard/index",
+			"style": {
+				"navigationBarTitleText": "我的名片",
+				"usingComponents": {
+					
+				}
+			}
+		},
+		
+		{
+			"path": "pages/shortVideo/index",
+			"style": {
+				"navigationStyle":"custom",
+				"usingComponents": {
+					
+				}
+			}
+		},
+		{
+			"path": "pages/knowDetail/index",
+			"style": {
+				"navigationBarTitleText":"干货详情",
+				"usingComponents": {
+					"van-divider": "/wxcomponents/vant/dist/divider/index",
+					"van-dropdown-menu": "/wxcomponents/vant/dist/dropdown-menu/index",
+					"van-dropdown-item": "/wxcomponents/vant/dist/dropdown-item/index"
+				}
+			}
+		},
+		{
+			"path": "pages/myComments/index",
+			"style": {
+				"navigationBarTitleText":"我的评论",
+				"usingComponents": {
+					"van-tag": "/wxcomponents/vant/dist/tag/index",
+					"van-divider": "/wxcomponents/vant/dist/divider/index"
+				}
+			}
+		},
+		{
+			"path": "pages/skills/index",
+			"style": {
+				"navigationBarTitleText": "创业技能",
+				"usingComponents": {
+					"van-tab": "/wxcomponents/vant/dist/tab/index",
+					"van-tabs": "/wxcomponents/vant/dist/tabs/index"
+				}
+			}
+		},
+		{
+			"path": "pages/story/index",
+			"style": {
+				"navigationBarTitleText": "创业故事",
+				"usingComponents": {
+					"van-tab": "/wxcomponents/vant/dist/tab/index",
+					"van-tabs": "/wxcomponents/vant/dist/tabs/index"
+				}
+			}
+		},
+		{
+			"path": "pages/product/index",
+			"style": {
+				"navigationBarTitleText": "产品包装",
+				"usingComponents": {
+					"van-tab": "/wxcomponents/vant/dist/tab/index",
+					"van-tabs": "/wxcomponents/vant/dist/tabs/index"
+				}
+			}
+		},
+		{
+			"path": "pages/sale/index",
+			"style": {
+				"navigationBarTitleText": "营销思维",
+				"usingComponents": {
+					"van-tab": "/wxcomponents/vant/dist/tab/index",
+					"van-tabs": "/wxcomponents/vant/dist/tabs/index"
+				}
+			}
+		},
+		{
+			"path": "pages/software/index",
+			"style": {
+				"navigationBarTitleText": "软件技术",
+				"usingComponents": {
+					"van-tab": "/wxcomponents/vant/dist/tab/index",
+					"van-tabs": "/wxcomponents/vant/dist/tabs/index"
+				}
+			}
+		},
+		{
+			"path": "pages/business/index",
+			"style": {
+				"navigationBarTitleText": "商业聚焦",
+				"usingComponents": {
+					"van-tab": "/wxcomponents/vant/dist/tab/index",
+					"van-tabs": "/wxcomponents/vant/dist/tabs/index"
+				}
 			}
 		}
 	],
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "创鱼企服",
+		"navigationBarBackgroundColor": "#5F60E0",
 		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color":"#4C4C4C",
+		"selectedColor":"#4C4C4C",
+		"fontSize":"20px",
+		"list":[
+			{"pagePath": "pages/index/index", "text":"首页", "iconPath": "static/home.png", "selectedIconPath":"static/home_sel.png"},
+			{"pagePath": "pages/knowledge/index", "text":"干货", "iconPath": "static/know.png", "selectedIconPath":"static/know_sel.png"},
+			{"pagePath": "pages/user/index", "text":"我的", "iconPath": "static/user.png", "selectedIconPath":"static/user_sel.png"}
+		]
 	}
 }
